@@ -1,0 +1,5 @@
+9. Database status:
+	-Show info of database
+Fields('Threads_connected,Threads_created,Threads_running,'Uptime',Queries,Max_used_connections)
+
+
