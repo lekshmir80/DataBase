@@ -62,6 +62,11 @@ def status_code():
 				gprint(f"Queries => {i[1]}")
 			else:
 				pass
+		
+		enter_string = Prompt.ask("press Enter to stop:") 
+		if enter_string == "Enter":
+			yprint("completed")
+			break
 		time.sleep(1)
 def menu():
 	gprint("[1]. Show status")
